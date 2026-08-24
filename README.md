@@ -14,16 +14,16 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
-
-import os
-os.environ["OPENBLAS_NUM_THREADS"]="1"
+```
+#Program to find the solution for the given linear equations.
+#Developed by: MOHAMED ASARUDEEN A
+#RegisterNumber: 25005844
 import numpy as np
-A=[[5,-3,-10],[2,2,-3],[-3,-1,5]]
-B=np.array([-9,4,-1])
-C=np.linalg.solve(A,B)
-print(C)
-
-
+a = np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+b = np.array([-9,4,-1])
+x=np.linalg.solve(a,b)
+print(x)
+```
 ## Output:
 
 <img width="1915" height="1095" alt="Screenshot 2026-08-24 161015" src="https://github.com/user-attachments/assets/829283f9-f577-4a01-b75c-f566c5dce8b6" />
